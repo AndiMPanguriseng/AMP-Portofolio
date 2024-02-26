@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AMP - Portofolio</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- header start -->
+        <header>
+            <nav>
+                <div class="logo">
+                    <a href="/" class="logo-name">AMP.</a>
+                </div>
+
+                <ul>
+                    <a href="#project">
+                        <li>Project</li>
+                    </a>
+                    <a href="#contact">
+                        <li>Contact</li>
+                    </a>
+                </ul>
+
+                <div class="burger-button">
+                    <input type="checkbox" class="check">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </header>
+        <!-- header end -->
+        <!-- main start -->
+        <main>
+            <article>
+                <h3 class="title">Hii guys my name is</h3>
+                <h1 class="title-name">Andi M. <span>Panguriseng</span></h1>
+                <p class="title-text">Final year student majoring in Computer Science and Engineering at Ujung
+                    Pandang State
+                    Polytechnic who is passionate and committed to technology, with a specific focus on web
+                    development. Have experience in creating several web projects that reflect technical skills and
+                    creativity also have strong analytical skills and a willingness to continue learning to improve
+                    knowledge in the field of technology</p>
+            </article>
+            <aside class="hero">
+                <img src="./images/MyImage-removebg.png" alt="person">
+            </aside>
+        </main>
+        <!-- main end -->
+        <!-- card start -->
+        <div>
+            <h1 id="project">My <span>Projects</span></h1>
+            <div class="card">
+                <div class="card1">
+                    <img class="card-image" src="./images/tourguide.jpg" alt="">
+                    <h3 class="card-title">Jappa-Jappa Tour Guide</h3>
+                    <p class="card-text">This website was build using html and css bootstrap 5</p>
+                    <a href="https://jappajappatourguide.vercel.app/" target="_blank"
+                        class="text-button">See The Project</a>
+                </div>
+                <div class="card1">
+                    <img class="card-image" src="./images/login-form.jpg" alt="">
+                    <h3 class="card-title">Login Register System</h3>
+                    <p class="card-text">This website was build using php and some html, javascript and bootstrap 5</p>
+                    <a href="https://github.com/AndiMPanguriseng/LoginRegisterSystem" target="_blank"
+                        class="text-button">See The Project</a>
+                </div>
+                <div class="card1">
+                    <img class="card-image" src="./images/laravel.jpg" alt="">
+                    <h3 class="card-title">CRUD Laravel 10</h3>
+                    <p class="card-text">This system is a simple CRUD using laravel 10 and bootstrap 5</p>
+                    <a href="https://github.com/AndiMPanguriseng/crudLaravel10" target="_blank" class="text-button">See
+                        The Project</a>
+
+                </div>
+            </div>
+        </div>
+        <!-- card end -->
+
+        <!-- contact start -->
+        <h1 class="title-name contact">Let's <span>Connect</span> with me</h1>
+        <div id="contact">
+            <form action="" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" id="name" name="name" placeholder="Enter Your Fullname"
+                        required>
+
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" name="email" placeholder="Enter Your Email"
+                        required>
+
+                    <label for="phone">Phone Number</label>
+                    <input type="number" class="form-control" id="phone" name="phone"
+                        placeholder="Enter Your Phone Number" required>
+
+                    <button type="submit" class="button-form">Submit</button>
+                </div>
+                <div class="form-group2">
+                    <label for="message">Message:</label>
+                    <textarea class="form-control2" id="message" name="message" required
+                        placeholder="Give us some message"></textarea>
+                </div>
+            </form>
+        </div>
+        <!-- contact end -->
+
+        <!-- footer start -->
+        <footer class="footer">
+            <p>Hak Cipta &copy; 2024 AMP.Portofolio</p>
+        </footer>
+        <!-- footer end -->
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
